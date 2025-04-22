@@ -24,7 +24,6 @@ This project investigates high-speed compressible flow through a converging-dive
 - ANSYS DesignModeler (Geometry)  
 - ANSYS Meshing  
 - 1d Theory: Isentropic flow tables and shock relations  
-- Excel + Word for reporting
 
 ## 📈 Methodology Summary
 1. Geometry and mesh design based on target Mach numbers  
