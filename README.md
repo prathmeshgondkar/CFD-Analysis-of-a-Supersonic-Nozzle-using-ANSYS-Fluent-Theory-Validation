@@ -1,58 +1,59 @@
 # 🚀 CFD Analysis of Converging-Diverging Nozzle (Gas Dynamics Project)
 
 **Course:** MECH 6111 – Gas Dynamics  
-**University:** Concordia University 
+**Term:** Fall 2024  
+**Instructor:** Dr. Pierre Q. Gauthier  
+**University:** Concordia University
 
-**Team Members:**  
-- Prathmesh Deepak Gondkar  
-- Allen Brightus Prince  
+## 👥 Team Members
+- Prathmesh Deepak Gondkar (40266289)  
+- Allen Brightus Prince (40304311)
 
 ## 📌 Project Overview
 
-This project investigates high-speed compressible flow through a converging-diverging (C-D) nozzle using CFD simulations and theoretical 1D analysis. It covers the effect of varying back pressure, visualizing flow features like:
+This project investigates high-speed compressible flow through a converging-diverging (C-D) nozzle using CFD simulations and theoretical 1d analysis. It explores how back pressure variations influence:
 
-- Choked flow at throat
-- Supersonic flow
-- Shock formation inside nozzle
-- Oblique shocks
-- Expansion waves outside the nozzle
+- Choked flow at the throat  
+- Supersonic flow through a divergent section  
+- Normal shocks within the nozzle  
+- Oblique shocks outside the nozzle  
+- Expansion waves beyond the exit  
 
 ## 🛠 Tools Used
-- ANSYS Fluent & CFX (Simulation)
-- ANSYS DesignModeler (Geometry)
-- ANSYS Mesher (Structured Meshing)
-- Excel + Isentropic/Normal Shock Tables (1D Theory)
+- ANSYS Fluent & CFX  
+- ANSYS DesignModeler (Geometry)  
+- ANSYS Meshing  
+- 1d Theory: Isentropic flow tables and shock relations  
+- Excel + Word for reporting
 
-## 📈 Methodology
+## 📈 Methodology Summary
+1. Geometry and mesh design based on target Mach numbers  
+2. Density-based solver setup with inviscid, planar assumptions  
+3. Parametric study on back pressure  
+4. Validation against 1d theory  
 
-1. Geometry creation based on isentropic ratios
-2. Structured mesh (25,400 elements)
-3. Density-based solver setup (steady, inviscid, planar)
-4. Boundary conditions using Total Pressure & Temperature
-5. Post-processing of Mach, Pressure, Temperature distributions
-6. Validation against theoretical 1D gas dynamic equations
+## 📊 Key Results (CFD vs Analytical)
 
-## 📊 Key Results
-
-| Condition         | Analytical Mach | CFD Mach | Error % |
+| Flow Case        | Analytical Mach | CFD Mach | Error % |
 |------------------|------------------|----------|---------|
-| Choked Flow Exit | 0.226            | 0.215    | 4.9%    |
+| Choked Exit      | 0.226            | 0.215    | 4.9%    |
 | Supersonic Exit  | 2.5              | 2.5217   | 0.9%    |
 | Oblique Shock    | 2.39             | 2.38     | 0.4%    |
-| Expansion Wave   | 2.94             | 2.946    | 0.2%    |
+| Expansion Flow   | 2.94             | 2.946    | 0.2%    |
 
 ## 📂 Files Included
 
-- `Final Report Gas Dynamics.pdf` – Detailed report of the project  
+- `Final Report Gas Dynamics.pdf` – Detailed project report  
 - `project.wbpj` – ANSYS project file  
-- `Images/` – Flow contours and graphs
+- `/images/` – Mach number, pressure & temperature contours  
 
 ## 📚 References
+- Gas Dynamics by James E. John (3rd Edition)  
+- ANSYS Fluent User Guide (2024 R2)  
 
-- Gas Dynamics by James E. John (3rd Edition)
-- ANSYS Fluent User Guide (2024 R2)
+## 🙏 Acknowledgments
+Special thanks to **Dr. Pierre Q. Gauthier** for his insightful lectures and continuous support. This project was completed as part of MECH 6111 – Gas Dynamics.
 
 ## 📬 Contact
-For any collaboration or questions, feel free to reach out on [LinkedIn]([https://www.linkedin.com/in/prathmeshgondkar)
+Please contact me on [LinkedIn](www.linkedin.com/in/prathmeshgondkar) if you have any questions or need collaboration.
 
----
